@@ -27,7 +27,8 @@
   border: none;
   font-size: 1.25rem;
 }
-.navbar-toggler:focus,.btn-close:focus {
+.navbar-toggler:focus,
+.btn-close:focus {
   outline: none;
   box-shadow: none;
 }
@@ -36,7 +37,8 @@
   font-weight: 500;
   position: relative;
 }
-.nav-link:hover,.nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   color: #000;
 }
 @media (min-width: 991px) {
@@ -52,15 +54,16 @@
     visibility: hidden;
     transition: 0.3s ease-in-out;
   }
-  .nav-link:hover::before,.nav-link.active::before {
+  .nav-link:hover::before,
+  .nav-link.active::before {
     width: 100%;
     visibility: visible;
   }
 }
 .hero-section {
-  background:linear-gradient(
-    rgba(0,0,0,0.45),
-    rgba(0,0,0,0.45)), url("images/geospec.png");
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("images/geospec.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,14 +79,14 @@
   bottom: 0;
   left: 0;
 }
-.hero-section .container{
-    height: 100vh;
-    z-index:1;
-    position: relative;
+.hero-section .container {
+  height: 100vh;
+  z-index: 1;
+  position: relative;
 }
-.hero-section h1{
-    font-size: 1.5rem;
+.hero-section h1 {
+  font-size: 1.5-rem;
 }
-.hero-section h2{
-    font-size: 1.2-rem;
+.hero-section h2 {
+  font-size: 1.2-rem;
 }
